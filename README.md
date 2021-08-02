@@ -40,3 +40,11 @@ Looking at the t-test for manufacturing lot 2 we can see that there is a p-value
 
 Finally, looking at the t-test for manufacturing lot 3 we can see that there is a p-value of 0.04. Since this value is below our significance level we have enough evidence to reject the null hypothesis. Thus, when looking at lot 3 alone, we should conclude that the mean is statistically different from the population mean of 1,500.
 
+## Study Design: MechaCar vs Competition
+In order to compare MechaCar to the competition I think it would be interesting to look at customer satisfaction rating of the cars produced by the companies. This will tell the consumer whether or not they are truly getting the bang for their buck. 
+
+To conduct this analysis I would need the car ID, company, and satisfaction rating for each car sold by each company from 2015-2021. I want to look at multiple years to make sure that I have enough data to make the tests statistically significant. Also, it is not practical to expect all customers to buy cars from a certain year. 
+
+After obtaining the data, I can come up with the hypotheses. The null hypothesis would be that there is no statistical difference in mean satisfaction rating between MechaCar and the competition. The alternative hypothesis would be that there is a statsitical difference in mean satisfaction rating between MechaCar and the competition. 
+
+In order to conduct this analysis, I would use a two sample t-test. I would assume a significance level of 0.05 and then run the tests between MechaCar and each of the competing companies. I would use a two sample t-test instead of a one sample one because we are looking at two completely different companies in each test. 
